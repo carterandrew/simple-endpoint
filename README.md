@@ -2,7 +2,7 @@
 
 A simple Flask-based program to demonstrate responding to GET and POST requests
 on a single HTTP endpoint with varying behavior if the Accept header is set to
-'accept/json' for GET requests.
+'application/json' for GET requests.
 
 ## Installation instructions
 
@@ -16,8 +16,8 @@ on a single HTTP endpoint with varying behavior if the Accept header is set to
 
 ### 1. Setup
 
-In a Linux terminal in the directory of your choice, please run the following
-commands:
+In a Linux terminal in the writable directory of your choice, please run the
+following commands:
 
 1. ```git clone https://github.com/carterandrew/simple-endpoint.git```
 2. ```cd simple-endpoint```
@@ -91,7 +91,7 @@ its contents by running:
 ### 5. Running unit tests
 
 Please switch to the terminal where the Flask application is running and
-terminate it with ```<ctrl>-c```. In same terminal, please run the following
+terminate it with ```<ctrl>-c```. In the same terminal, please run the following
 command to execute the unit tests:
 
 ```python http_server_test.py```
